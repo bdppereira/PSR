@@ -133,6 +133,8 @@ def exerc2f():
               'g': {'min': 90, 'max': 256},
               'r': {'min': 0, 'max': 70} }
 
+    print (ranges)
+
     mins = np.array([ranges['b']['min'], ranges['g']['min'], ranges['r']['min']])
     maxs = np.array([ranges['b']['max'], ranges['g']['max'], ranges['r']['max']])
     mask = cv2.inRange(img, mins, maxs)
@@ -161,7 +163,9 @@ def main():
     else:
        op = 2
 
-    exerc2d()
+    # exerc2d()
+
+    exerc2f()
 
     print("FIM")
 

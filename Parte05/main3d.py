@@ -12,12 +12,12 @@ import numpy as np
 
 # Global variables
 window_name = 'window - Ex3a'
-trackbar_minBH = 'min B/H'
-trackbar_maxBH = 'max B/H'
-trackbar_minGS = 'min G/S'
-trackbar_maxGS = 'max G/S'
-trackbar_minRV = 'min R/V'
-trackbar_maxRV = 'max R/V'
+trackbar_minBH = 'min B'
+trackbar_maxBH = 'max B'
+trackbar_minGS = 'min G'
+trackbar_maxGS = 'max G'
+trackbar_minRV = 'min R'
+trackbar_maxRV = 'max R'
 
 #image_gray = None
 alpha_slider_min = 0
