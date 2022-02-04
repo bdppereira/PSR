@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de042fb-d0cb-4254-a576-bbf90da60a10" name="Changes" comment="" />
+    <list default="true" id="2de042fb-d0cb-4254-a576-bbf90da60a10" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/driver" beforeDir="false" afterPath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/driver" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,11 +94,34 @@
       <workItem from="1643484090869" duration="5418000" />
       <workItem from="1643709464505" duration="6196000" />
       <workItem from="1643724634181" duration="23619000" />
-      <workItem from="1643881375635" duration="12958000" />
+      <workItem from="1643881375635" duration="15386000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1643935854643</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643935854643</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
