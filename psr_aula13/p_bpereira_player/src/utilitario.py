@@ -5,8 +5,10 @@ import rospy
 def configurarEquipa(player_name):
 
     equipa={'red': rospy.get_param('/red_players'),
-       'blue': rospy.get_param('/blue_players'),
-       'green': rospy.get_param('/green_players')}
+            'blue': rospy.get_param('/blue_players'),
+            'green': rospy.get_param('/green_players')}
+
+    # print (equipa['red'])
 
     if player_name in equipa['red']:
         equipa['minhaquipa'], equipa['presas'], equipa['cacador'] = 'red','green','blue'
@@ -23,5 +25,6 @@ def configurarEquipa(player_name):
     equipa['m_cacador'] = equipa[equipa['cacador']]
 
     rospy.loginfo('OK Equipas definidas ::' + player_name + '  tem equipa')
+
     return equipa
 

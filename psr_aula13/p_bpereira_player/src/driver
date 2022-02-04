@@ -3,6 +3,7 @@
 import cv2
 from cv_bridge import CvBridge
 from sensor_msgs.msg import Image
+from utilitario import configurarEquipa
 
 import copy
 import math
@@ -226,7 +227,11 @@ def main():
     rospy.init_node('p_bpereira_driver', anonymous=False)
     driver = Driver()
 
-    print ("vai começar com "+driver.name )
+    print ("vai começar com "+ driver.name )
+
+    equipa = configurarEquipa( driver.name )
+
+    print (equipa)
 
     rate = rospy.Rate(5)
 
@@ -241,7 +246,6 @@ def main():
 
         rospy.spin()
 
-    #  capture.release()
     cv2.destroyAllWindows()
 
     # rospy.init_node('p_bpereira_driver', anonymous=False)
