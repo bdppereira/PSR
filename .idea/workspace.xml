@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2de042fb-d0cb-4254-a576-bbf90da60a10" name="Changes" comment="add">
+    <list default="true" id="2de042fb-d0cb-4254-a576-bbf90da60a10" name="Changes" comment="utils">
+      <change afterPath="$PROJECT_DIR$/PSR_TP3_G4/p_g4_bringup/params/configuracoes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr_aula12/p_bpereira_bringup/params/configuracoes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSR_TP3_G4/p_g4_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/PSR_TP3_G4/p_g4_bringup/launch/game_bringup.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSR_TP3_G4/p_g4_player/src/utilitario.py" beforeDir="false" afterPath="$PROJECT_DIR$/PSR_TP3_G4/p_g4_player/src/utilitario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psr_aula12/p_bpereira_bringup/launch/game_bringup.launch" beforeDir="false" afterPath="$PROJECT_DIR$/psr_aula12/p_bpereira_bringup/launch/game_bringup.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/driver" beforeDir="false" afterPath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/driver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/teste.py" beforeDir="false" afterPath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/teste.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/utilitario.py" beforeDir="false" afterPath="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src/utilitario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/PSR_TP3_G4" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PSR_TP3_G4/p_g4_bringup/params" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PSR_TP3_G4/p_g4_bringup/params" />
       <recent name="$PROJECT_DIR$/psr_aula13/p_bpereira_player/src" />
       <recent name="$PROJECT_DIR$/psr_aula12/p_bpereira_bringup/launch" />
       <recent name="$PROJECT_DIR$/psr_aula12/psr_fnr/worlds" />
       <recent name="$PROJECT_DIR$/psr_aula11/src" />
-      <recent name="$PROJECT_DIR$/psr_aula9_ex3_bringup" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/psr_aula8_ex3/src" />
@@ -94,7 +102,8 @@
       <workItem from="1643484090869" duration="5418000" />
       <workItem from="1643709464505" duration="6196000" />
       <workItem from="1643724634181" duration="23619000" />
-      <workItem from="1643881375635" duration="15386000" />
+      <workItem from="1643881375635" duration="25900000" />
+      <workItem from="1644229748051" duration="9558000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1643935854643</created>
@@ -103,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643935854643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="duvidas">
+      <created>1643974594020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643974594020</updated>
+    </task>
+    <task id="LOCAL-00003" summary="utils">
+      <created>1643975676406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643975676406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="duvidas" />
+    <MESSAGE value="utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="utils" />
   </component>
 </project>

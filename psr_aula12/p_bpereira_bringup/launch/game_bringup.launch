@@ -1,6 +1,7 @@
 <launch>
 
     <rosparam command="load" file="$(find p_bpereira_bringup)/params/game.yaml"/>
+    <rosparam command="load" file="$(find p_bpereira_bringup)/params/configuracoes.yaml"/>
 
 <!--     Equipa Vermelha -->
     <include file="$(find p_bpereira_bringup)/launch/bringup.launch">
@@ -27,8 +28,8 @@
     <include file="$(find p_bpereira_bringup)/launch/bringup.launch">
         <arg name="player_name" value="blue1"/>
         <arg name="player_color" value="Blue"/>
-        <arg name="x_pos" value="-5"/>
-        <arg name="y_pos" value="-5"/>
+        <arg name="x_pos" value="-2"/>
+        <arg name="y_pos" value="0"/>
         <arg name="z_pos" value="0"/>
         <arg name="visualize" value="false"/>
         <arg name="driver" value="false"/>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import rospy
-from utilitario import configurarEquipa
+from utilitario import configurarEquipa, configurarEstrategia
 
 import rospy
 from visualization_msgs.msg import Marker
@@ -123,16 +123,19 @@ def main():
 
     equipa = configurarEquipa(node_name)
 
-    rospy.init_node('driver', anonymous=False)
+    estrategia = configurarEstrategia('red')
+
+    # rospy.init_node('driver', anonymous=False)
 
     print('+++++++++++++++++++++++++++++++++++++++')
 
-    print (equipa)
+    print (equipa['minhaquipa'])
 
     print('+++++++++++++++++++++++++++++++++++++++')
 
-    print('/' + node_name +'/camera/rgb/image_raw')
+    print(estrategia)
 
+    print('++++++++++++++++'+ str(estrategia['red2'])+'+++++++++++++++++++++++')
 
     # rospy.init_node('register')
 
